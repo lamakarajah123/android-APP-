@@ -14,7 +14,6 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
 
-        <!-- MainActivity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -24,16 +23,12 @@
             </intent-filter>
         </activity>
 
-        <!-- SubjectListActivity -->
         <activity android:name=".SubjectListActivity" />
 
-        <!-- ExamplesActivity -->
         <activity android:name=".ExamplesActivity" />
 
-        <!-- ExplanationActivity -->
         <activity android:name=".ExplanationActivity" />
 
-        <!-- QuizActivity -->
         <activity android:name=".QuizActivity" />
 
     </application>
