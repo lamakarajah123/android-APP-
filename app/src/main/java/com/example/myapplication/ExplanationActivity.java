@@ -18,7 +18,6 @@ public class ExplanationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_explanation);
 
-        // Initialize views
         explanationTextView = findViewById(R.id.explanationTextView);
         backButton = findViewById(R.id.backButton);
 
@@ -36,7 +35,6 @@ public class ExplanationActivity extends AppCompatActivity {
     private void displayJavaexplanation() {
         StringBuilder explanationBuilder = new StringBuilder();
 
-        // Add examples of Java code
         explanationBuilder.append("Explanation of examples:\n\n");
         explanationBuilder.append("1.Java Math \n");
         explanationBuilder.append(" The Java Math class has many methods that allows you to perform mathematical tasks on numbers.\n\n");
